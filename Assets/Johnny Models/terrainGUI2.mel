@@ -1,0 +1,32 @@
+global proc terrainGUI2( ) {
+    window -t "TerrainGenerator" -wh 250 250 "MyWindow5";
+    columnLayout;
+    text -w 175 -al "left" -l "Terrain Parameters";
+    separator -st "double" -w 200;
+    textField -text "1" -w 200 "field1";
+    text -w 175 -al "left" -l "^ Plane Width";
+    
+    separator -st "double" -w 200;
+    textField -text "1" -w 200 "field2";
+    text -w 175 -al "left" -l "^ Plane Height";
+    
+    separator -st "double" -w 200;
+    textField -text "-.1" -w 200 "field3";
+    text -w 175 -al "left" -l "^ Lowest Height";
+    
+    separator -st "double" -w 200;
+    textField -text ".1" -w 200 "field4";
+    text -w 175 -al "left" -l "^ Highest Hieght";
+    
+    separator -st "double" -w 200;
+    textField -text "0" -w 200 "field5";
+    text -w 175 -al "left" -l "^ Sharp Ridges? 0 for No, 1 for Yes";
+    
+    separator -st "double" -w 200 -h 20;
+    $whenclicked = "source generateTerrain2.mel; generateTerrain2(float(`textField -q -text field1`), float(`textField -q -text field2`), float(`textField -q -text field3`), float(`textField -q -text field4`), float(`textField -q -text field5`));";
+    button -l "Generate" -w 200 -c {$whenclicked};
+    
+    showWindow "MyWindow5";
+}
+
+terrainGUI2();

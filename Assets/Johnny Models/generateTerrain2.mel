@@ -1,0 +1,20 @@
+global proc generateTerrain2(float $pWidth, float $pHeight, float $lHeight, float $hHeight, float $sharp) {
+    string $names[] = `polyPlane -n terrain -w $pWidth -h $pHeight -sx 10 -sy 10 -ax 0 1 0 -cuv 2 -ch 1`;
+    int $count[] = `polyEvaluate -v $names[0]`;
+    for($i=0; $i<$count[0] ; $i= $i+1){
+        $myvertex = $names[0] + ".vtx[" + $i + "]";
+        float $height = rand($lHeight, $hHeight);
+        select -r $myvertex;
+        move -r 0 $height 0;
+    } 
+    polySmooth($names[0]);
+    if ($sharp != 0) {
+        for($i=0; $i<$count[0] ; $i= $i+1){
+            $myvertex = $names[0] + ".vtx[" + $i + "]";
+            float $newheight[] = `pointPosition -w $myvertex`;
+            float $finalheight = `abs $newheight[1]`;
+            select -r $myvertex;
+            move -r 0 $finalheight 0;
+        }
+    }       
+}
