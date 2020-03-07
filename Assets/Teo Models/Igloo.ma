@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Igloo.ma
-//Last modified: Fri, Mar 06, 2020 08:33:43 PM
+//Last modified: Fri, Mar 06, 2020 11:37:37 PM
 //Codeset: 1252
 requires maya "2018";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiTwoSided"
@@ -16,13 +16,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "6B504181-4064-C3C0-759E-E1958C5AF5EC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.43344029943662565 -0.68940939865066242 -3.5403828207328849 ;
-	setAttr ".r" -type "double3" 12.861647261499188 186.59999999996444 0 ;
+	setAttr ".t" -type "double3" -0.057957606546599094 0.32525864520637238 -4.2836235165439662 ;
+	setAttr ".r" -type "double3" -0.93835273821436493 -180.99999999997911 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0C333DC2-440B-4471-762A-30B04C411256";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 2.9053056969567148;
+	setAttr ".coi" 4.2064683637545732;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -515,37 +515,31 @@ createNode choice -n "rigidBody_tx";
 	rename -uid "154BBFE5-4F77-01F1-B02B-189E8C5E71AD";
 	setAttr ".ihi" 0;
 	setAttr -s 2 ".i";
-	setAttr ".i[0]" 0;
 	setAttr ".i[1]" 0;
 createNode choice -n "rigidBody_ty";
 	rename -uid "697FEB1B-492F-7359-E505-9E84BA23D59F";
 	setAttr ".ihi" 0;
 	setAttr -s 2 ".i";
-	setAttr ".i[0]" 0;
 	setAttr ".i[1]" 0;
 createNode choice -n "rigidBody_tz";
 	rename -uid "AF007C44-4E5C-86DE-8002-C1B6744C1A84";
 	setAttr ".ihi" 0;
 	setAttr -s 2 ".i";
-	setAttr ".i[0]" 0;
 	setAttr ".i[1]" 0;
 createNode choice -n "rigidBody_rx";
 	rename -uid "E5602646-47A3-1C86-C3E4-7A95DECCF722";
 	setAttr ".ihi" 0;
 	setAttr -s 2 ".i";
-	setAttr ".i[0]" 0;
 	setAttr ".i[1]" 0;
 createNode choice -n "rigidBody_ry";
 	rename -uid "84A37858-48D3-6725-B1CF-908446A7007F";
 	setAttr ".ihi" 0;
 	setAttr -s 2 ".i";
-	setAttr ".i[0]" 0;
 	setAttr ".i[1]" 0;
 createNode choice -n "rigidBody_rz";
 	rename -uid "588E0AA2-4DC0-7916-F535-2AB65EF39CB4";
 	setAttr ".ihi" 0;
 	setAttr -s 2 ".i";
-	setAttr ".i[0]" 0;
 	setAttr ".i[1]" 0;
 select -ne :time1;
 	setAttr ".o" 1;
