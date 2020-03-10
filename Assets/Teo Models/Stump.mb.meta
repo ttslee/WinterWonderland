@@ -1,17 +1,27 @@
 fileFormatVersion: 2
-guid: 505642e00b6eace428437f117a63fac9
-timeCreated: 1583847092
+guid: 662f74501ed31044cb1f0af983af604c
+timeCreated: 1583853822
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: pCylinder1
+    100002: pCylinder2
+    100004: pCylinder3
+    100006: //RootNode
+    100008: transform1
+    100010: transform2
+    400000: pCylinder1
+    400002: pCylinder2
+    400004: pCylinder3
+    400006: //RootNode
+    400008: transform1
+    400010: transform2
     2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Tree
-    6400000: //RootNode
+    2300000: pCylinder3
+    3300000: pCylinder3
+    4300000: pCylinder3
+    6400000: pCylinder3
     9500000: //RootNode
   externalObjects:
   - first:
