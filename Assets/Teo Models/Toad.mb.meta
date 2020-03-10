@@ -1,68 +1,17 @@
 fileFormatVersion: 2
-guid: 50adeb66f8ff6764fa93b13af5dbebb6
+guid: 32aab059307b2b64d93a02086ae2a7de
+timeCreated: 1583842286
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Chest
-    100002: Head
-    100004: Hip
-    100006: imagePlane1
-    100008: imagePlane2
-    100010: LeftElbow
-    100012: LeftFoot
-    100014: LeftHand
-    100016: LeftHip
-    100018: LeftLeg
-    100020: LeftShoulder
-    100022: LeftUpper
-    100024: Neck
-    100026: pCube1
-    100028: pCube2
-    100030: Penguin
-    100032: //RootNode
-    100034: penpen
-    100036: RightElbow
-    100038: RightFoot
-    100040: RightHand
-    100042: RightHip
-    100044: RightKnee
-    100046: RightShoulder
-    100048: RightUpper
-    100050: spine
-    100052: transform1
-    100054: transform2
-    400000: Chest
-    400002: Head
-    400004: Hip
-    400006: imagePlane1
-    400008: imagePlane2
-    400010: LeftElbow
-    400012: LeftFoot
-    400014: LeftHand
-    400016: LeftHip
-    400018: LeftLeg
-    400020: LeftShoulder
-    400022: LeftUpper
-    400024: Neck
-    400026: pCube1
-    400028: pCube2
-    400030: Penguin
-    400032: //RootNode
-    400034: penpen
-    400036: RightElbow
-    400038: RightFoot
-    400040: RightHand
-    400042: RightHip
-    400044: RightKnee
-    400046: RightShoulder
-    400048: RightUpper
-    400050: spine
-    400052: transform1
-    400054: transform2
+    100000: //RootNode
+    400000: //RootNode
     2100000: lambert1
-    4300000: penpen
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube2
     9500000: //RootNode
-    13700000: penpen
   externalObjects: {}
   materials:
     importMaterials: 1
