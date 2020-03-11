@@ -20,6 +20,8 @@ ModelImporter:
     400010: transform1
     400012: transform2
     2100000: lambert1
+    2100002: surfaceShader1
+    2100004: blinn1
     2300000: pCylinder3
     2300002: pCylinder4
     3300000: pCylinder3

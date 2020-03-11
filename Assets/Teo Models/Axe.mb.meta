@@ -8,6 +8,8 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: lambert1
+    2100002: surfaceShader1
+    2100004: blinn1
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCylinder4
@@ -17,8 +19,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 01cb525b6ae66c14ea416d2b15425a16, type: 2}
+      name: blinn1
+    second: {fileID: 2100000, guid: 9f412a8e2bd39a649a1dbb66bd48cc71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfaceShader1
+    second: {fileID: 2100000, guid: e590fa8ef1186b449b8601d5697c0747, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
