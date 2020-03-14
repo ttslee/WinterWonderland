@@ -62,6 +62,9 @@ public class Dialogue : MonoBehaviour {
             case "Snowman":
                 text = "You are glad to see these decorated snowmen here.";
                 break;
+            case "Hut":
+                text = "A cozy hut. Maybe I should live here instead.";
+                break;
             default:
                 text = defaultText;
                 break;

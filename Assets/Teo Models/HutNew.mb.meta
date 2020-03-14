@@ -329,6 +329,60 @@ ModelImporter:
     4300102: pCube14
     4300104: polySurface1
     4300106: polySurface2
+    6400000: pCube10
+    6400002: pCube10 1
+    6400004: pCube11
+    6400006: pCube11 1
+    6400008: pCube12
+    6400010: pCube12 1
+    6400012: pCube13
+    6400014: pCube13 1
+    6400016: pCube14
+    6400018: pCube5
+    6400020: pCube9
+    6400022: pCube9 1
+    6400024: pCylinder1
+    6400026: pCylinder10
+    6400028: pCylinder11
+    6400030: pCylinder11 1
+    6400032: pCylinder11 2
+    6400034: pCylinder12
+    6400036: pCylinder12 1
+    6400038: pCylinder12 2
+    6400040: pCylinder13
+    6400042: pCylinder13 1
+    6400044: pCylinder13 2
+    6400046: pCylinder14
+    6400048: pCylinder14 1
+    6400050: pCylinder14 2
+    6400052: pCylinder15
+    6400054: pCylinder15 1
+    6400056: pCylinder15 2
+    6400058: pCylinder16
+    6400060: pCylinder16 1
+    6400062: pCylinder16 2
+    6400064: pCylinder17
+    6400066: pCylinder17 1
+    6400068: pCylinder17 2
+    6400070: pCylinder18
+    6400072: pCylinder18 1
+    6400074: pCylinder18 2
+    6400076: pCylinder19
+    6400078: pCylinder19 1
+    6400080: pCylinder19 2
+    6400082: pCylinder2
+    6400084: pCylinder20
+    6400086: pCylinder21
+    6400088: pCylinder3
+    6400090: pCylinder4
+    6400092: pCylinder5
+    6400094: pCylinder6
+    6400096: pCylinder7
+    6400098: pCylinder9
+    6400100: polySurface1
+    6400102: polySurface2
+    6400104: pPlane2
+    6400106: pPlane3
     9500000: //RootNode
   externalObjects:
   - first:
@@ -367,7 +421,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
