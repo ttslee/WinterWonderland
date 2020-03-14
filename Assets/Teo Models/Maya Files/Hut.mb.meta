@@ -83,6 +83,9 @@ ModelImporter:
     100150: transform5
     100152: transform6
     100154: Walls
+    100156: Hut
+    100158: polySurface1
+    100160: polySurface2
     400000: group1
     400002: //RootNode
     400004: pCube1
@@ -161,7 +164,13 @@ ModelImporter:
     400150: transform5
     400152: transform6
     400154: Walls
+    400156: Hut
+    400158: polySurface1
+    400160: polySurface2
     2100000: lambert1
+    2100002: lambert2
+    2100004: lambert3
+    2100006: lambert4
     2300000: pCube5
     2300002: pCylinder1
     2300004: pCylinder10
@@ -216,6 +225,8 @@ ModelImporter:
     2300102: pCylinder21
     2300104: pPlane2
     2300106: pPlane3
+    2300108: polySurface1
+    2300110: polySurface2
     3300000: pCube5
     3300002: pCylinder1
     3300004: pCylinder10
@@ -270,6 +281,8 @@ ModelImporter:
     3300102: pCylinder21
     3300104: pPlane2
     3300106: pPlane3
+    3300108: polySurface1
+    3300110: polySurface2
     4300000: pCylinder1
     4300002: pCylinder2
     4300004: pCylinder3
@@ -324,6 +337,8 @@ ModelImporter:
     4300102: pCylinder20
     4300104: pCylinder21
     4300106: pCube14
+    4300108: polySurface1
+    4300110: polySurface2
     9500000: //RootNode
   externalObjects: {}
   materials:

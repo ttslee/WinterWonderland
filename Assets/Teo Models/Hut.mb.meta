@@ -81,6 +81,9 @@ ModelImporter:
     100146: transform5
     100148: transform6
     100150: Walls
+    100152: Hut
+    100154: polySurface1
+    100156: polySurface2
     400000: BackWall
     400002: Bed
     400004: Door
@@ -157,7 +160,13 @@ ModelImporter:
     400146: transform5
     400148: transform6
     400150: Walls
+    400152: Hut
+    400154: polySurface1
+    400156: polySurface2
     2100000: lambert1
+    2100002: lambert2
+    2100004: lambert3
+    2100006: lambert4
     2300000: dr
     2300002: pCube10
     2300004: pCube10 1
@@ -211,6 +220,8 @@ ModelImporter:
     2300100: pCylinder9
     2300102: pPlane2
     2300104: pPlane3
+    2300106: polySurface1
+    2300108: polySurface2
     3300000: dr
     3300002: pCube10
     3300004: pCube10 1
@@ -264,6 +275,8 @@ ModelImporter:
     3300100: pCylinder9
     3300102: pPlane2
     3300104: pPlane3
+    3300106: polySurface1
+    3300108: polySurface2
     4300000: pCube5
     4300002: dr
     4300004: pPlane2
@@ -317,6 +330,8 @@ ModelImporter:
     4300100: pCylinder20
     4300102: pCylinder21
     4300104: pCube14
+    4300106: polySurface1
+    4300108: polySurface2
     6400000: dr
     6400002: pCube10
     6400004: pCube10 1
@@ -370,6 +385,8 @@ ModelImporter:
     6400100: pCylinder9
     6400102: pPlane2
     6400104: pPlane3
+    6400106: polySurface1
+    6400108: polySurface2
     9500000: //RootNode
   externalObjects:
   - first:
