@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 0e1c11f20da002346b9b836756afdb12
+timeCreated: 1584189153
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: group1
+    100002: //RootNode
+    100004: pCube1
+    100006: pCube2
+    100008: pCube3
+    100010: pCube4
+    100012: pCube5
+    100014: pCylinder1
+    100016: pCylinder10
+    100018: pCylinder11
+    100020: pCylinder2
+    100022: pCylinder3
+    100024: pCylinder4
+    100026: pCylinder5
+    100028: pCylinder6
+    100030: pCylinder7
+    100032: pCylinder8
+    100034: pCylinder9
+    100036: transform1
+    100038: transform2
+    100040: transform3
+    100042: transform4
+    100044: pCylinder12
+    100046: pCylinder13
+    100048: pCylinder14
+    100050: pCylinder15
+    100052: pCylinder16
+    100054: pCylinder17
+    100056: pCylinder18
+    100058: pCylinder19
+    100060: BackWall
+    100062: Bed
+    100064: Door
+    100066: dr
+    100068: Floor
+    100070: FrontWall
+    100072: LeftWall
+    100074: pCube10
+    100076: pCube10 1
+    100078: pCube11
+    100080: pCube11 1
+    100082: pCube12
+    100084: pCube12 1
+    100086: pCube13
+    100088: pCube13 1
+    100090: pCube14
+    100092: pCube6
+    100094: pCube7
+    100096: pCube9
+    100098: pCube9 1
+    100100: pCylinder11 1
+    100102: pCylinder11 2
+    100104: pCylinder12 1
+    100106: pCylinder12 2
+    100108: pCylinder13 1
+    100110: pCylinder13 2
+    100112: pCylinder14 1
+    100114: pCylinder14 2
+    100116: pCylinder15 1
+    100118: pCylinder15 2
+    100120: pCylinder16 1
+    100122: pCylinder16 2
+    100124: pCylinder17 1
+    100126: pCylinder17 2
+    100128: pCylinder18 1
+    100130: pCylinder18 2
+    100132: pCylinder19 1
+    100134: pCylinder19 2
+    100136: pCylinder20
+    100138: pCylinder21
+    100140: pPlane2
+    100142: pPlane3
+    100144: RightWall
+    100146: Roof
+    100148: Table
+    100150: transform5
+    100152: transform6
+    100154: Walls
+    400000: group1
+    400002: //RootNode
+    400004: pCube1
+    400006: pCube2
+    400008: pCube3
+    400010: pCube4
+    400012: pCube5
+    400014: pCylinder1
+    400016: pCylinder10
+    400018: pCylinder11
+    400020: pCylinder2
+    400022: pCylinder3
+    400024: pCylinder4
+    400026: pCylinder5
+    400028: pCylinder6
+    400030: pCylinder7
+    400032: pCylinder8
+    400034: pCylinder9
+    400036: transform1
+    400038: transform2
+    400040: transform3
+    400042: transform4
+    400044: pCylinder12
+    400046: pCylinder13
+    400048: pCylinder14
+    400050: pCylinder15
+    400052: pCylinder16
+    400054: pCylinder17
+    400056: pCylinder18
+    400058: pCylinder19
+    400060: BackWall
+    400062: Bed
+    400064: Door
+    400066: dr
+    400068: Floor
+    400070: FrontWall
+    400072: LeftWall
+    400074: pCube10
+    400076: pCube10 1
+    400078: pCube11
+    400080: pCube11 1
+    400082: pCube12
+    400084: pCube12 1
+    400086: pCube13
+    400088: pCube13 1
+    400090: pCube14
+    400092: pCube6
+    400094: pCube7
+    400096: pCube9
+    400098: pCube9 1
+    400100: pCylinder11 1
+    400102: pCylinder11 2
+    400104: pCylinder12 1
+    400106: pCylinder12 2
+    400108: pCylinder13 1
+    400110: pCylinder13 2
+    400112: pCylinder14 1
+    400114: pCylinder14 2
+    400116: pCylinder15 1
+    400118: pCylinder15 2
+    400120: pCylinder16 1
+    400122: pCylinder16 2
+    400124: pCylinder17 1
+    400126: pCylinder17 2
+    400128: pCylinder18 1
+    400130: pCylinder18 2
+    400132: pCylinder19 1
+    400134: pCylinder19 2
+    400136: pCylinder20
+    400138: pCylinder21
+    400140: pPlane2
+    400142: pPlane3
+    400144: RightWall
+    400146: Roof
+    400148: Table
+    400150: transform5
+    400152: transform6
+    400154: Walls
+    2100000: lambert1
+    2300000: pCube5
+    2300002: pCylinder1
+    2300004: pCylinder10
+    2300006: pCylinder11
+    2300008: pCylinder2
+    2300010: pCylinder3
+    2300012: pCylinder4
+    2300014: pCylinder5
+    2300016: pCylinder6
+    2300018: pCylinder7
+    2300020: pCylinder8
+    2300022: pCylinder9
+    2300024: pCylinder12
+    2300026: pCylinder13
+    2300028: pCylinder14
+    2300030: pCylinder15
+    2300032: pCylinder16
+    2300034: pCylinder17
+    2300036: pCylinder18
+    2300038: pCylinder19
+    2300040: dr
+    2300042: pCube10
+    2300044: pCube10 1
+    2300046: pCube11
+    2300048: pCube11 1
+    2300050: pCube12
+    2300052: pCube12 1
+    2300054: pCube13
+    2300056: pCube13 1
+    2300058: pCube14
+    2300060: pCube9
+    2300062: pCube9 1
+    2300064: pCylinder11 1
+    2300066: pCylinder11 2
+    2300068: pCylinder12 1
+    2300070: pCylinder12 2
+    2300072: pCylinder13 1
+    2300074: pCylinder13 2
+    2300076: pCylinder14 1
+    2300078: pCylinder14 2
+    2300080: pCylinder15 1
+    2300082: pCylinder15 2
+    2300084: pCylinder16 1
+    2300086: pCylinder16 2
+    2300088: pCylinder17 1
+    2300090: pCylinder17 2
+    2300092: pCylinder18 1
+    2300094: pCylinder18 2
+    2300096: pCylinder19 1
+    2300098: pCylinder19 2
+    2300100: pCylinder20
+    2300102: pCylinder21
+    2300104: pPlane2
+    2300106: pPlane3
+    3300000: pCube5
+    3300002: pCylinder1
+    3300004: pCylinder10
+    3300006: pCylinder11
+    3300008: pCylinder2
+    3300010: pCylinder3
+    3300012: pCylinder4
+    3300014: pCylinder5
+    3300016: pCylinder6
+    3300018: pCylinder7
+    3300020: pCylinder8
+    3300022: pCylinder9
+    3300024: pCylinder12
+    3300026: pCylinder13
+    3300028: pCylinder14
+    3300030: pCylinder15
+    3300032: pCylinder16
+    3300034: pCylinder17
+    3300036: pCylinder18
+    3300038: pCylinder19
+    3300040: dr
+    3300042: pCube10
+    3300044: pCube10 1
+    3300046: pCube11
+    3300048: pCube11 1
+    3300050: pCube12
+    3300052: pCube12 1
+    3300054: pCube13
+    3300056: pCube13 1
+    3300058: pCube14
+    3300060: pCube9
+    3300062: pCube9 1
+    3300064: pCylinder11 1
+    3300066: pCylinder11 2
+    3300068: pCylinder12 1
+    3300070: pCylinder12 2
+    3300072: pCylinder13 1
+    3300074: pCylinder13 2
+    3300076: pCylinder14 1
+    3300078: pCylinder14 2
+    3300080: pCylinder15 1
+    3300082: pCylinder15 2
+    3300084: pCylinder16 1
+    3300086: pCylinder16 2
+    3300088: pCylinder17 1
+    3300090: pCylinder17 2
+    3300092: pCylinder18 1
+    3300094: pCylinder18 2
+    3300096: pCylinder19 1
+    3300098: pCylinder19 2
+    3300100: pCylinder20
+    3300102: pCylinder21
+    3300104: pPlane2
+    3300106: pPlane3
+    4300000: pCylinder1
+    4300002: pCylinder2
+    4300004: pCylinder3
+    4300006: pCylinder4
+    4300008: pCylinder5
+    4300010: pCylinder6
+    4300012: pCylinder7
+    4300014: pCylinder8
+    4300016: pCylinder9
+    4300018: pCylinder10
+    4300020: pCylinder11
+    4300022: pCube5
+    4300024: pCylinder12
+    4300026: pCylinder13
+    4300028: pCylinder14
+    4300030: pCylinder15
+    4300032: pCylinder16
+    4300034: pCylinder17
+    4300036: pCylinder18
+    4300038: pCylinder19
+    4300040: dr
+    4300042: pPlane2
+    4300044: pPlane3
+    4300046: pCylinder11
+    4300048: pCylinder12
+    4300050: pCylinder13
+    4300052: pCylinder14
+    4300054: pCylinder15
+    4300056: pCylinder16
+    4300058: pCylinder17
+    4300060: pCylinder18
+    4300062: pCylinder19
+    4300064: pCylinder11
+    4300066: pCylinder12
+    4300068: pCylinder13
+    4300070: pCylinder14
+    4300072: pCylinder15
+    4300074: pCylinder16
+    4300076: pCylinder17
+    4300078: pCylinder18
+    4300080: pCylinder19
+    4300082: pCube13
+    4300084: pCube12
+    4300086: pCube11
+    4300088: pCube10
+    4300090: pCube9
+    4300092: pCube13
+    4300094: pCube12
+    4300096: pCube11
+    4300098: pCube10
+    4300100: pCube9
+    4300102: pCylinder20
+    4300104: pCylinder21
+    4300106: pCube14
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

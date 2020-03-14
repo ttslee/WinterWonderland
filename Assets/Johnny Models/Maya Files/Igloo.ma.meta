@@ -27,6 +27,7 @@ ModelImporter:
     400018: transform4
     2100000: lambert1
     2100002: Default_Material
+    2100004: aiTwoSided2
     2300000: pCylinder5
     3300000: pCylinder5
     4300000: pCylinder5
