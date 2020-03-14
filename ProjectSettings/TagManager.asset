@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Campfire
+  - Igloo
+  - RadioTower
+  - Toad
+  - Tent
+  - Stump
+  - Tree
+  - Rock
+  - Sign
+  - Snowman
+  - NPC
   layers:
   - Default
   - TransparentFX
