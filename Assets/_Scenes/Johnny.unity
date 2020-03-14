@@ -2002,7 +2002,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1473856827
+  randomSeed: -2100326396
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -6294,7 +6294,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You are not near any objects to use "E" on
+  m_Text: Press "E" to inspect the objects of this world.
 --- !u!222 &1801544874
 CanvasRenderer:
   m_ObjectHideFlags: 0

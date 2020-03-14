@@ -18,6 +18,10 @@ public class Dialogue : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.E) && text != defaultText)
             Say(text);
+        else if (Input.GetKeyDown(KeyCode.E))
+        {
+            Say(defaultText);
+        }
     }
 
     private void Say(string sentence)
@@ -30,24 +34,33 @@ public class Dialogue : MonoBehaviour {
         switch (collision.tag)
         {
             case "Campfire":
+                text = "An endless fire that lights up this whole place.";
                 break;
             case "Igloo":
+                text = "The penguin's mightiest home. No one can have it.";
                 break;
             case "RadioTower":
+                text = "Bzzt! This radiotower seems to still be active.";
                 break;
             case "Toad":
+                text = "Toad: Get away from my source of communication!";
                 break;
             case "Tent":
+                text = "This tent was used recently, but by whom?";
                 break;
             case "Stump":
+                text = "A stump with an axe embedded on the top.";
                 break;
             case "Tree":
+                text = "A tree that was not able to survive here unlike you.";
                 break;
-            case "Rock":
+            case "Rock": //Not Implemented Yet, no sphere colliders on rocks
                 break;
             case "Sign":
+                text = "Sadly, a penguin can not read what this sign says.";
                 break;
             case "Snowman":
+                text = "You are glad to see these decorated snowmen here.";
                 break;
             default:
                 text = defaultText;
