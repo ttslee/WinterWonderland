@@ -1220,9 +1220,29 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180.96999
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 5a2ae8146b24b5545b2927d891fa8edd, type: 3}
+      propertyPath: m_TagString
+      value: Hut
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a2ae8146b24b5545b2927d891fa8edd, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &779813802 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100012, guid: 5a2ae8146b24b5545b2927d891fa8edd, type: 3}
+  m_PrefabInternal: {fileID: 779813801}
+--- !u!135 &779813803
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 779813802}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 15.72
+  m_Center: {x: 0, y: 0, z: 7.58}
 --- !u!1 &819270434 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1812373979677350, guid: 01c13b8cf175d9f4c944e360df091b89,
