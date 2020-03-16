@@ -84,6 +84,15 @@ ModelImporter:
     100152: transform5
     100154: transform6
     100156: Walls
+    100158: Extra
+    100160: pCube15
+    100162: pCube16
+    100164: pCylinder22
+    100166: pCylinder23
+    100168: pCylinder24
+    100170: pCylinder25
+    100172: pCylinder26
+    100174: pCylinder27
     400000: BackWall
     400002: Bed
     400004: Door
@@ -163,6 +172,15 @@ ModelImporter:
     400152: transform5
     400154: transform6
     400156: Walls
+    400158: Extra
+    400160: pCube15
+    400162: pCube16
+    400164: pCylinder22
+    400166: pCylinder23
+    400168: pCylinder24
+    400170: pCylinder25
+    400172: pCylinder26
+    400174: pCylinder27
     2100000: lambert1
     2100002: lambert2
     2100004: lambert3
@@ -221,6 +239,14 @@ ModelImporter:
     2300102: polySurface2
     2300104: pPlane2
     2300106: pPlane3
+    2300108: pCube15
+    2300110: pCube16
+    2300112: pCylinder22
+    2300114: pCylinder23
+    2300116: pCylinder24
+    2300118: pCylinder25
+    2300120: pCylinder26
+    2300122: pCylinder27
     3300000: pCube10
     3300002: pCube10 1
     3300004: pCube11
@@ -275,6 +301,14 @@ ModelImporter:
     3300102: polySurface2
     3300104: pPlane2
     3300106: pPlane3
+    3300108: pCube15
+    3300110: pCube16
+    3300112: pCylinder22
+    3300114: pCylinder23
+    3300116: pCylinder24
+    3300118: pCylinder25
+    3300120: pCylinder26
+    3300122: pCylinder27
     4300000: pCube5
     4300002: pPlane2
     4300004: pPlane3
@@ -329,6 +363,14 @@ ModelImporter:
     4300102: pCube14
     4300104: polySurface1
     4300106: polySurface2
+    4300108: pCylinder22
+    4300110: pCube15
+    4300112: pCylinder23
+    4300114: pCylinder24
+    4300116: pCylinder25
+    4300118: pCube16
+    4300120: pCylinder26
+    4300122: pCylinder27
     6400000: pCube10
     6400002: pCube10 1
     6400004: pCube11
@@ -383,6 +425,14 @@ ModelImporter:
     6400102: polySurface2
     6400104: pPlane2
     6400106: pPlane3
+    6400108: pCube15
+    6400110: pCube16
+    6400112: pCylinder22
+    6400114: pCylinder23
+    6400116: pCylinder24
+    6400118: pCylinder25
+    6400120: pCylinder26
+    6400122: pCylinder27
     9500000: //RootNode
   externalObjects:
   - first:
@@ -419,7 +469,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.05
     meshCompression: 0
     addColliders: 1
     importVisibility: 1
