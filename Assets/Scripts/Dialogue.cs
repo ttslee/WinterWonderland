@@ -65,6 +65,9 @@ public class Dialogue : MonoBehaviour {
             case "Hut":
                 text = "A cozy hut. Maybe I should live here instead.";
                 break;
+            case "Door":
+                text = "DOOROORDOODOR";
+                break;
             default:
                 text = defaultText;
                 break;
