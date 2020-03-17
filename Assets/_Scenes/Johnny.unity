@@ -277,8 +277,8 @@ SphereCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 100014, guid: 779c8d19807f0e5418099299fa474611, type: 3}
   m_PrefabInternal: {fileID: 15799892}
---- !u!65 &93310366
-BoxCollider:
+--- !u!135 &93310364
+SphereCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -287,32 +287,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.46, z: 0.27}
-  m_Center: {x: -0.28, y: 0.18, z: 0.62}
---- !u!65 &93310367
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 93310363}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1.18, z: 1.01}
-  m_Center: {x: 0, y: 0, z: -0.07}
---- !u!65 &93310368
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 93310363}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 0.15}
-  m_Center: {x: 0, y: 0, z: 0.92}
+  m_Radius: 0.77
+  m_Center: {x: 0, y: 0, z: 0.42}
 --- !u!4 &116518778 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 1aaac281868697044a481636fdb4fa92, type: 3}
@@ -571,22 +547,6 @@ CanvasRenderer:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 49b134ccd4843314a9ed73a6d5120a70, type: 3}
   m_PrefabInternal: {fileID: 487110967}
---- !u!1 &203222263 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100004, guid: 779c8d19807f0e5418099299fa474611, type: 3}
-  m_PrefabInternal: {fileID: 15799892}
---- !u!65 &203222265
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 203222263}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.48, z: 0.24}
-  m_Center: {x: -0.07, y: 0, z: 0}
 --- !u!1001 &213129913
 Prefab:
   m_ObjectHideFlags: 0
