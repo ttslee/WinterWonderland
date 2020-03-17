@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class CameraChange : MonoBehaviour {
 
-    public Camera tpCam;
-    public Camera fpCam;
+    public GameObject tpCam;
+    public GameObject fpCam;
+
+    //public Camera tpCam;
+    //public Camera fpCam;
 
 	void Update () {
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -18,13 +21,13 @@ public class CameraChange : MonoBehaviour {
 
     public void ShowFirstPersonView()
     {
-        fpCam.enabled = true;
-        tpCam.enabled = false;
+        fpCam.SetActive(true);
+        tpCam.SetActive(false);
     }
 
     public void ShowThirdPersonView()
     {
-        fpCam.enabled = false;
-        tpCam.enabled = true;
+        fpCam.SetActive(false);
+        tpCam.SetActive(true);
     }
 }

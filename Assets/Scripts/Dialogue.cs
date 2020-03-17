@@ -74,9 +74,11 @@ public class Dialogue : MonoBehaviour {
     private void OnTriggerExit(Collider collision)
     {
         text = defaultText;
-        Debug.Log(collision.tag);
         if (collision.tag == "Hut")
+        {
+            GameObject.Find("HutNew").GetComponent<Animator>().ResetTrigger("Open");
             GameObject.Find("HutNew").GetComponent<Animator>().SetTrigger("Close");
+        }
     }
 
 }
