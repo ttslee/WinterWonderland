@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour {
-
+    private string exitTag;
+    private string enterTag;
     public Text textBox;
     private string defaultText = "You are not near any objects to use \"E\" on";
     private string text;
@@ -22,6 +23,10 @@ public class Dialogue : MonoBehaviour {
         {
             Say(defaultText);
         }
+        else if(Input.GetKeyDown(KeyCode.E) && enterTag == "Door")
+        {
+            GameObject.Find("HutNew").GetComponent<Animator>().SetTrigger("Open");
+        }
     }
 
     private void Say(string sentence)
@@ -29,8 +34,10 @@ public class Dialogue : MonoBehaviour {
         textBox.text = sentence;
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerStay(Collider collision)
     {
+        enterTag = collision.tag;
+        print(enterTag);
         switch (collision.tag)
         {
             case "Campfire":
@@ -66,7 +73,7 @@ public class Dialogue : MonoBehaviour {
                 text = "A cozy hut. Maybe I should live here instead.";
                 break;
             case "Door":
-                text = "DOOROORDOODOR";
+                text = "Door!!";
                 break;
             default:
                 text = defaultText;
