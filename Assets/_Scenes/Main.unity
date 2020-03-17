@@ -1266,8 +1266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5720e064d1866f48b5896dfa6f951a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tpCam: {fileID: 1226607617}
-  fpCam: {fileID: 1979350113}
+  tpCam: {fileID: 1226607614}
+  fpCam: {fileID: 1979350109}
 --- !u!4 &727226692 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400026, guid: ae2fbbee2b592eb4c8a9c96edfa62b04, type: 3}
@@ -6762,7 +6762,6 @@ GameObject:
   - component: {fileID: 1979350110}
   - component: {fileID: 1979350113}
   - component: {fileID: 1979350112}
-  - component: {fileID: 1979350111}
   m_Layer: 0
   m_Name: FPS Camera
   m_TagString: MainCamera
@@ -6783,13 +6782,6 @@ Transform:
   m_Father: {fileID: 727226692}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1979350111
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1979350109}
-  m_Enabled: 1
 --- !u!124 &1979350112
 Behaviour:
   m_ObjectHideFlags: 0
